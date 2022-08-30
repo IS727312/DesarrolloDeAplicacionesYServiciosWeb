@@ -1,0 +1,8 @@
+input:out-of-range{
+    background-color: aqua;
+    border-color: blueviolet;
+}
+
+input:hover{
+    background-color: coral;
+}

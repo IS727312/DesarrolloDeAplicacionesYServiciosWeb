@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tercera Sesion</title>
+</head>
+<body>
+    <h1>Formulario 1 Simple:</h1>
+    <form action="">
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" name="name"> <br>
+
+        <label for="apellido">Apellido:</label>
+        <input id="apellido" type="text" name="apellido"> <br>
+
+        <label for="comentarios">Comentarios:</label> <br>
+        <textarea name="comentarios" id="comentarios" cols="40" rows="5">
+            Valor por defecto
+        </textarea> <br>
+
+        Usuario:
+        <input type="text" name="usuario" id="name"> <br>
+
+        Contrasena:
+        <input type="password" name="password" id="pwd"> <br>
+
+        Numero:
+        <input type="number" name="cantidad" min="1" max="10"> <br>
+
+        Correo:
+        <input type="email" name="email" id="email"> <br>
+
+        Archivo:
+        <input type="file" name="myfile" id="file"> <br>
+
+        Color:
+        <input type="color" name="micolor" value="red"> <br>
+
+        Fecha:
+        <input type="date" name="fecha" value="2001-08-24"> <br>
+
+        Mes:
+        <input type="month" name="mes"> <br>
+
+        Hora:
+        <input type="time" name="hora">
+
+        Checkboxes: <br>
+        <input type="checkbox" name="chbx1" value="chk1">
+        Checkbox 1
+        <input type="checkbox" name="chbx2" value="chk2">
+        Checkbox 2
+        <input type="checkbox" name="chbx3" value="chk3" checked>
+        Checkbox 3 <br>
+
+        Radios: <br>
+        <input type="radio" name="test" value="t1">
+        Radio 1 <br>
+        
+        <input type="radio" name="test" value="t2">
+        Radio 2 <br>
+
+        Rango:
+        <input type="range" name="points" min="0" max="10"> <br>
+
+        Boton:
+        <input type="button" value="Picale" onclick="alert('Hola Mundo!');"> <br>
+
+        Selector: <br>
+        <select name="select">
+            <option value="opc1">Opcion 1</option>
+            <option value="opc2" selected>Opcion 1</option>
+            <option value="opc3">Opcion 1</option>
+            <option value="opc4">Opcion 1</option>
+        </select> <br>
+
+        Imagen: (Convierte en boton de submit): <br>
+        <input type="image" src="Tarea1/src/dogImage.jpeg" width="50"> <br>
+
+        <input type="submit" value="guardar">
+    </form>
+
+    <h1>Ejemplos de IFrame: </h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1pkOgXD63yU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="SESION3/Resume 2.pdf"></iframe>
+
+    <h1>Ejemplo de Objetos:</h1>
+    <object data="SESION3/Resume 2.pdf" type="application/pdf" width="800" height="600"></object>
+</body>
+</html>

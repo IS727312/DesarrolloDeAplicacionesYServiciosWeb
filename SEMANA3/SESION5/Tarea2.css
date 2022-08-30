@@ -1,0 +1,38 @@
+th{
+    background-color: darkgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+tr:nth-of-type(even) td:nth-of-type(odd),
+tr:nth-of-type(odd) td:nth-of-type(even){
+    color:black;
+    background-color:white;
+}
+tr:nth-of-type(even) td:nth-of-type(even),
+tr:nth-of-type(odd) td:nth-of-type(odd){
+    color:white;
+    background-color:black;
+}
+tr:hover, td:hover, th:hover{
+    background-color: bisque !important;
+}
+
+input[type = "text"]{
+    border-radius: 15px;
+}
+
+button{
+    color: teal;
+    background-color: azure;
+    border-radius: 15px;
+    border: 0cm;
+}
+
+input:checked{
+    outline: 2px solid deeppink;
+}
+
+input:invalid{
+    background-color: red;
+    outline: 2px solid deeppink;
+}
